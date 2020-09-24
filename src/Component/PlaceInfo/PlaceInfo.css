@@ -1,0 +1,14 @@
+.placeDetails{
+  margin-top: 10%;
+  border-top: 1px solid gray;
+}
+.info{
+ margin-bottom: 10px;
+}
+.info-first img{
+  height: 200px;
+  width: 300px;
+}
+.info-second{
+  margin-left: 10px;
+}
