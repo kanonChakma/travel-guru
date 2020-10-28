@@ -40,7 +40,7 @@ const Home = () => {
                   </div>
            <div className=" home-slide">    
              <OwlCarousel  {...options} className="owl-theme" >  
-                    <div  className="item" onClick={()=>setCount(3)} style={{width:"230px"}}><img  src={sajek}  alt="The Last of us"/><h4>sajek</h4></div>
+                    <div  className="item" onClick={()=>setCount(3)} style={{width:"230px"}}><img className="img-fluid" src={sajek}  alt="The Last of us"/><h4>sajek</h4></div>
                     <div  className="item"  onClick={()=>setCount(1)} style={{width:"230px"}}><img  src={Sreemangol} alt="GTA V"/> <h4>Sreemangol</h4></div>
                     <div  className="item"  onClick={()=>setCount(2)} style={{width:"230px"}}><img  src={sundorbon} alt="Mirror Edge"/><h4>sundorbon</h4></div>
                 </OwlCarousel>
